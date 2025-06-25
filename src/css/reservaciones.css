@@ -1,0 +1,29 @@
+#content {
+  background-color: #eef4ff;
+  padding: 25px;
+  border-left: 6px solid #4a90e2;
+  border-radius: 10px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+#content h1 {
+  font-size: 26px;
+  color: #2c5aa0;
+  margin-bottom: 10px;
+}
+
+#content p {
+  font-size: 16px;
+  color: #333;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

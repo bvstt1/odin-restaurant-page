@@ -1,0 +1,48 @@
+/* Estilos para el contenido del menú */
+#content {
+  background-color: #fffdf5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilos para los encabezados y texto */
+#content h1 {
+  font-size: 28px;
+  color: #d94c1a;
+  margin-bottom: 10px;
+}
+
+#content p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Lista de productos */
+#content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#content ul li {
+  background-color: #ffe0cc;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #703100;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
