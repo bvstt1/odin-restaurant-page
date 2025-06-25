@@ -1,0 +1,1 @@
+import { greeting } from "./greeting.js";
